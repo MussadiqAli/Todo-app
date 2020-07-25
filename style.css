@@ -1,0 +1,110 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    border: rgb(218, 8, 183) 1px solid;
+    width: 500px;
+    margin: 0 auto;
+    min-height: 600px;
+    border-radius: 20px;
+    background-color: rgba(252, 175, 239, 0.171);
+    box-shadow: gray 3px 3px 5px;
+}
+#heading{
+    color: #5a5854;
+    text-shadow: white 2px 2px 5px ;
+}
+#input-todo{
+    font-size: 1.3em;
+    color: #5a5854;
+    background-color: #f2f2f2;
+    border-style: 1px solid #f0dfca;
+    border-color: rgb(253, 19, 214);
+    border-top-style: none;
+    border-left-style: none;
+    border-radius: 5px;
+    padding: 5px 5px 5px 30px;
+    background-position: 8px 9px;
+    margin-bottom: 10px;
+    width: 300px;
+    margin-top: 10px;
+}
+#input-todo:focus{
+    background-color: #f8f8f8;
+    outline: none;
+    border-color: rgb(201, 5, 168);
+    border-top-style: none;
+    border-left-style: none;
+    border-radius: 5px;
+    
+}
+.btn{
+    font-size: 1.2em;
+    width: 140px;
+    padding: 5px;
+    background-color: rgb(253, 19, 214);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    margin: 5px;
+    box-shadow: gray 2px 2px 4px;
+}
+.btn:focus{
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(252, 90, 225);
+}
+.btn:active{
+    background-color: rgb(219, 8, 184);
+}
+#list{
+    margin-top: 40px;
+    color: rgb(218, 8, 183);
+    text-align: left;
+    font-size: 1.3em;
+}
+.listVal{
+    width: 200px;
+    vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+.btnJS{
+    font-size: 0.8em;
+    width: 100px;
+    padding: 5px;
+    background-color: rgb(253, 19, 214);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    box-shadow: gray 2px 2px 4px;
+}
+.btnJS:focus{
+    outline: none;
+}
+.btnJS:hover{
+    background-color: rgb(252, 90, 225);
+}
+.btnJS:active{
+    background-color: rgb(219, 8, 184);
+}
+
+
+.dBlock {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
